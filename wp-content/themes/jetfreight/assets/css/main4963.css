@@ -3954,9 +3954,10 @@ label.error:before,
 /* card-Accordian-over*/
 /* ========================================== */
 .top-inner-banner {
-  background: url(../img/inner-bg-top.jpg) repeat-x left top;
+  /* background: url(../img/inner-bg-top.jpg) repeat-x left top; */
   margin-bottom: 24px;
   background-size: contain;
+  background-color: #2f2b60;
 }
 .top-inner-banner .f-col {
   position: relative;
@@ -4015,7 +4016,7 @@ label.error:before,
 .inner-tab-nav .filter.active,
 .inner-tab-nav a.active,
 .inner-tab-nav a:hover {
-  color: var(--black);
+  color: var(--white);
   background: var(--green);
 }
 .tabs_wrapper.main-tab {
@@ -4749,7 +4750,6 @@ footer {
   display: inline-flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 16px;
 }
 .app-dwn-sec {
   position: relative;
@@ -5185,9 +5185,10 @@ button {
   position: absolute;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
   background-color: #2f2b60;
-  /* background-image: url('http://img1.wsimg.com/isteam/stock/87437/:/rs=w:538,h:269,cg:true,m/cr=w:538,h:269');
+  background-image: url('../img/jet.jpg');
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
+  background-position: bottom left;
 }
 .inner-content-one {
   display: flex;
@@ -5287,6 +5288,9 @@ button {
   justify-content: center;
   text-align: left;
   color: var(--black);
+}
+.inner-banner-top .comm-sec-content{
+  color: #ffffff;
 }
 .inner-vid-sec .inner-content-one .comm-sec-content {
   max-width: 425px;
@@ -6760,7 +6764,7 @@ textarea::placeholder {
 }
 .address-list,
 .img-map {
-  display: none;
+  /* display: none; */
   width: 100%;
 }
 .map-image {
