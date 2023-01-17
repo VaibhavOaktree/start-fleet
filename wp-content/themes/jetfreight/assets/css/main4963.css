@@ -8403,6 +8403,7 @@ td {
     padding: 40px 51px;
   }
 }
+
 @media all and (max-width: 400px) {
   .top-01 {
     margin-top: 65px;
