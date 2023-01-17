@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="34.436" height="36" viewBox="0 0 34.436 36">
   <g id="Group_28456" data-name="Group 28456" transform="translate(21430 15546)">
-    <path id="Subtraction_10" data-name="Subtraction 10" d="M12.721,21H0V0H29V5.584A11.739,11.739,0,0,0,11.518,15.826,11.6,11.6,0,0,0,12.72,21Z" transform="translate(-21429 -15536)" fill="#a7cf45"/>
-    <path id="Path_33886" data-name="Path 33886" d="M-21423.982-15545.2h18.859l5.586,9.357h-29.74Z" fill="#a7cf45"/>
+    <path id="Subtraction_10" data-name="Subtraction 10" d="M12.721,21H0V0H29V5.584A11.739,11.739,0,0,0,11.518,15.826,11.6,11.6,0,0,0,12.72,21Z" transform="translate(-21429 -15536)" fill="#e99835"/>
+    <path id="Path_33886" data-name="Path 33886" d="M-21423.982-15545.2h18.859l5.586,9.357h-29.74Z" fill="#e99835"/>
     <g id="Group_24030" data-name="Group 24030" transform="translate(-21430 -15536.608)">
       <g id="Group_24029" data-name="Group 24029">
         <g id="Group_24028" data-name="Group 24028">
@@ -26,7 +26,7 @@
     <g id="Group_24037" data-name="Group 24037" transform="translate(-21415.912 -15530.348)">
       <g id="Group_24038" data-name="Group 24038">
         <g id="Group_24037-2" data-name="Group 24037">
-          <path id="Path_30136" data-name="Path 30136" d="M10.174,1.565a8.609,8.609,0,1,0,8.609,8.609A8.618,8.618,0,0,0,10.174,1.565Z" fill="#a7cf45"/>
+          <path id="Path_30136" data-name="Path 30136" d="M10.174,1.565a8.609,8.609,0,1,0,8.609,8.609A8.618,8.618,0,0,0,10.174,1.565Z" fill="#e99835"/>
         </g>
       </g>
     </g>
