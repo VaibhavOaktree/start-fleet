@@ -45,15 +45,19 @@ var swiperLogos = new Swiper(".homeSlider", {
 
     spaceBetween: 30,
     pagination: {
-        el: ".logo-pagination",
+        el: ".swiper-pagination",
         clickable: true,
     },
-    speed: 5000,
+    speed: 9000,
     loop: true,
     autoplay: {
         delay: 0,
         disableOnInteraction: false
     },
+   navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
     breakpoints: {
         320: {
             spaceBetween: 0,
