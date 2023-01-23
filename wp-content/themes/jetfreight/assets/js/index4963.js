@@ -41,6 +41,44 @@ var swiperLogos = new Swiper(".myLogos", {
 
 });
 
+var swiperLogos = new Swiper(".homeSlider", {
+
+    spaceBetween: 30,
+    pagination: {
+        el: ".logo-pagination",
+        clickable: true,
+    },
+    speed: 5000,
+    loop: true,
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false
+    },
+    breakpoints: {
+        320: {
+            spaceBetween: 0,
+            slidesPerView: 1,
+        },
+        500: {
+            spaceBetween: 0,
+            slidesPerView: 1,
+        },
+        700: {
+            spaceBetween: 0,
+            slidesPerView: 1,
+        },
+        1023: {
+            spaceBetween: 0,
+            slidesPerView: 1,
+        },
+        1367: {
+            spaceBetween: 0,
+            slidesPerView: 1,
+        }
+    },
+
+});
+
 /* ===========================Counter============================================================== */
 var counted = 0;
 $(window).scroll(function () {
