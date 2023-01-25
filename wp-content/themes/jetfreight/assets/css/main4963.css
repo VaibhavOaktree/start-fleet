@@ -512,6 +512,11 @@ button,
   }
 }
 @media all and (max-width: 768px) {
+
+  .testimonialSlider img{
+    width: auto !important;
+    height: auto !important;
+  }
   .blog-title,
   .comm-pg-title {
     font-size: 30px;
@@ -1565,6 +1570,9 @@ hr {
 }
 .mb-5 {
   margin-bottom: 5px;
+}
+.mr-5{
+  margin-right: 5px;
 }
 @media all and (max-width: 1660px) {
   .w-1660-100 {
@@ -3475,7 +3483,7 @@ button img,
 }
 button span,
 .button span {
-  white-space: nowrap;
+  /* white-space: nowrap; */
   /* padding: 10px 0px 10px 0; */
   display: flex;
   align-items: center;
@@ -4381,7 +4389,7 @@ header {
   width: 100%;
   font-weight: 600;
   font-family: 'Mulish', sans-serif;
-  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2); */
 }
 .csheader {
   position: relative;
@@ -4453,7 +4461,7 @@ header {
   padding: 10px 25px;
   transition: all 0.2s ease;
 }
-.navigation > ul .nav-item a:after {
+/* .navigation > ul .nav-item a:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -4463,7 +4471,7 @@ header {
   left: 0;
   bottom: -22px;
   transition: all 0.2s ease;
-}
+} */
 .navigation > ul .nav-item.active a,
 .navigation > ul .nav-item:hover a {
   color: var(--green);
@@ -4596,7 +4604,7 @@ header {
   overflow-x: hidden;
   overflow-y: auto;
   box-shadow: 0 0 5px 0.2px rgba(255, 255, 255, 0.3);
-  background-color: #1768d1;
+  background-color: var(--green);
 }
 .mob-navigation .nav-toggle {
   position: absolute;
@@ -4690,7 +4698,7 @@ header {
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
-  background-color: #23c2f2;
+  background-color: var(--green);
   position: absolute;
   left: 0;
   top: 0;
@@ -5081,9 +5089,6 @@ button {
   transform: translateX(-50%);
   background: transparent;
   z-index: 6;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .top-inner-banner .tabs-icons {
   bottom: -80px;
@@ -5128,14 +5133,14 @@ button {
 .tab .def-img {
   opacity: 1;
 }
-.tab .def-img-hov {
+/* .tab .def-img-hov {
   opacity: 0;
-}
-.tab .none,
+} */
+/* .tab .none,
 .tab a:hover .def-img,
 .tab article:hover .def-img {
   opacity: 0;
-}
+} */
 .tab .block,
 .tab a:hover .def-img-hov,
 .tab a.active .def-img-hov,
@@ -7431,7 +7436,7 @@ td {
   .sub-heading {
     margin: 0px 0 8px;
   }
-  .comm-sec-heading,
+  /* .comm-sec-heading, */
   .comm-inner-header {
     margin: 0px 0 8px;
   }
@@ -8528,7 +8533,6 @@ td {
       }
 
       .s0{
-        
         background-image: url('https://images.unsplash.com/photo-1558204692-5f402fe220b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
         background-size: cover;
         background-position: center;
@@ -8557,3 +8561,108 @@ td {
         padding: 15rem 0;
         background-repeat: no-repeat;
       }
+
+      .contact-page{
+        background-image: url("../../../jetfreight/assets/img/page-header-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+
+      .about-page{
+        background-image: url("../../../jetfreight/assets/img/slide03.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+      }
+
+      .feature-section{
+        background-image: url("../../../jetfreight/assets/img/map-bg.png");
+      }
+
+
+      /* dropdown css starts */
+
+      /* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: #221E26;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #f58634;}
+
+
+.international-banner{
+  background-image: url('https://images.unsplash.com/photo-1558204692-5f402fe220b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.air-freight_banner{
+  background-image: url('../../../../themes//jetfreight/assets/slider/banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.sea-freight_banner{
+  background-image: url('../../../../themes//jetfreight/assets/slider/slide02.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-clearance_banner{
+  background-image: url('../../../../themes//jetfreight/assets/img/solution-image03.jpg');
+  background-size: 100%;
+  background-position: center;
+}
+
+.tailormade-banner{
+  background-image: url('../../../../themes//jetfreight/assets/img/news04.jpg');
+  background-size: 100%;
+  background-position: center;
+}
+
+.testimonial-section{
+  background-image: url('../../../../themes//jetfreight/assets/img/news03.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.testimonialSlider .swiper-slide{
+  background: transparent;
+  color: #ffffff;
+}

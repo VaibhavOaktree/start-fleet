@@ -41,7 +41,7 @@ var swiperLogos = new Swiper(".myLogos", {
 
 });
 
-var swiperLogos = new Swiper(".homeSlider", {
+var homeLogos = new Swiper(".homeSlider", {
 
     spaceBetween: 30,
     pagination: {
@@ -80,6 +80,59 @@ var swiperLogos = new Swiper(".homeSlider", {
             slidesPerView: 1,
         }
     },
+
+});
+
+var testimonialLogos = new Swiper(".testimonialSlider", {
+
+    spaceBetween: 30,
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    speed: 9000,
+    loop: true,
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false
+    },
+    effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+   navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+    // breakpoints: {
+    //     320: {
+    //         spaceBetween: 0,
+    //         slidesPerView: 1,
+    //     },
+    //     500: {
+    //         spaceBetween: 0,
+    //         slidesPerView: 1,
+    //     },
+    //     700: {
+    //         spaceBetween: 0,
+    //         slidesPerView: 1,
+    //     },
+    //     1023: {
+    //         spaceBetween: 0,
+    //         slidesPerView: 1,
+    //     },
+    //     1367: {
+    //         spaceBetween: 0,
+    //         slidesPerView: 1,
+    //     }
+    // },
 
 });
 
